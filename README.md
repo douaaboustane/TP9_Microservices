@@ -28,3 +28,17 @@ L'URL de l'API backend est configurée dans `src/config.js`. Par défaut, elle p
 - Ajout de nouveaux comptes via un formulaire
 - Interface utilisateur avec Bootstrap
 
+## 🖥️ Frontend – Account Management Interface
+
+The following screenshot illustrates the frontend interface developed with
+**React** for bank account management.
+
+The interface provides:
+- A form to create a new account (balance, creation date, account type)
+- A table displaying the list of accounts with their ID, balance, creation date,
+  and type
+
+This frontend communicates with the Spring Boot REST API to perform CRUD
+operations on accounts.
+
+![Account Management UI](tp9.png)
